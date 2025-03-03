@@ -1,0 +1,270 @@
+
+body {
+    background-color: #051549;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header nav{
+    background-color: #132049;
+    width: 100%;
+    padding: 15px 0 ;
+    position: sticky;
+    top: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: rgb(8, 8, 82);
+    border-radius: 15px;
+}
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 180px;
+    padding: 100px;
+}
+
+
+.image-container img {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 4px solid white;
+}
+
+
+.info-container {
+    text-align: left; 
+}
+
+
+.name {
+    font-size: 3rem;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2; 
+}
+
+
+.title {
+    font-size: 18px;
+    margin: 8px 0 8px;
+    color: rgb(216, 212, 212);
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.summary {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    max-width: 700px;
+}
+
+.email a{
+    text-decoration: none;
+    font-size: large;
+}
+
+.contact{
+    background-color: #020d2c;
+    padding-bottom: 0;
+    padding-top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+}
+
+
+
+.logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1); 
+}
+
+
+.experience{
+    display: flex;
+    gap: 200px;
+    padding: 100px;
+    padding-bottom: 5px;
+}
+.experience-right{
+    text-align: left;
+}
+
+.education{
+    display: flex;
+    gap: 210px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.education-right{
+    text-align: left;
+}
+.contact-section {
+    padding: 60px 20px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #a5a3a3;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(201, 201, 202);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #b8b6b6;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 30%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #b1aeae;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button{
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px 18px;
+    background-color: #020d2c;
+    color: white;
+}
+button:hover {
+    background: #e5e5f0;
+    color: rgb(9, 6, 51);
+}
+.skill-heading{
+    color: rgb(216, 212, 212);
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 15px;
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 50px;
+
+}
+.skills{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 60px;
+}
+.skill-content{
+    margin-top: 100px;
+}
+li{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.skills-1{
+    border: 1px solid rgb(236, 233, 233);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f6f6fabb;
+    color: #020d2c;
+
+}
+
+.skills-1:hover{
+    box-shadow: 5px 5px 5px white;
+}
+
+.skills-2{
+    border: 1px solid rgb(231, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7fabb;
+    color: #020d2c;
+}
+
+.skills-2:hover{
+    box-shadow: 5px 5px 5px white;
+}
+
+.skills-3{
+    border: 1px solid rgb(228, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fbfbfdbb;
+    color: #020d2c;
+}
+
+.skills-3:hover{
+    box-shadow: 5px 5px 5px white;
+}
